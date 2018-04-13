@@ -7,23 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D19E31EADD423F53799CFC3 /* Pods_Umbala_Interview_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A876E7698EA0CF4DAB8EC07 /* Pods_Umbala_Interview_Test.framework */; };
 		F3DC5B5A2080DA1F001551DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B592080DA1F001551DC /* AppDelegate.swift */; };
-		F3DC5B5C2080DA1F001551DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B5B2080DA1F001551DC /* ViewController.swift */; };
-		F3DC5B5F2080DA1F001551DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DC5B5D2080DA1F001551DC /* Main.storyboard */; };
 		F3DC5B622080DA20001551DC /* Umbala_Interview_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B602080DA20001551DC /* Umbala_Interview_Test.xcdatamodeld */; };
 		F3DC5B642080DA20001551DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3DC5B632080DA20001551DC /* Assets.xcassets */; };
 		F3DC5B672080DA20001551DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DC5B652080DA20001551DC /* LaunchScreen.storyboard */; };
+		F3DC5B752080DBEE001551DC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B742080DBEE001551DC /* Constants.swift */; };
+		F3DC5B772080DC04001551DC /* InstagramApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B762080DC04001551DC /* InstagramApi.swift */; };
+		F3DC5B792080DC1C001551DC /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B782080DC1C001551DC /* UIViewControllerExtension.swift */; };
+		F3DC5B7B2080DC43001551DC /* UserAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B7A2080DC43001551DC /* UserAuthManager.swift */; };
+		F3DC5B7D2080DC56001551DC /* PopupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B7C2080DC56001551DC /* PopupManager.swift */; };
+		F3DC5B7F2080DC72001551DC /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B7E2080DC72001551DC /* UIImageViewExtension.swift */; };
+		F3DC5B822080DC8D001551DC /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B812080DC8D001551DC /* ArrayExtension.swift */; };
+		F3DC5B842080DCB9001551DC /* InstagarmRelationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B832080DCB9001551DC /* InstagarmRelationship.swift */; };
+		F3DC5B862080DCC9001551DC /* InstagramRelationshipType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B852080DCC9001551DC /* InstagramRelationshipType.swift */; };
+		F3DC5B882080DCDA001551DC /* InstagramUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B872080DCDA001551DC /* InstagramUserInfo.swift */; };
+		F3DC5B8A2080DCF4001551DC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B892080DCF4001551DC /* LoginViewController.swift */; };
+		F3DC5B8C2080DD08001551DC /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B8B2080DD08001551DC /* WelcomeViewController.swift */; };
+		F3DC5B8E2080DD64001551DC /* FollowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B8D2080DD64001551DC /* FollowingViewController.swift */; };
+		F3DC5B902080DE75001551DC /* UmbalaInterviewTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B8F2080DE75001551DC /* UmbalaInterviewTestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50E050CC808B49681A9517CD /* Pods-Umbala-Interview-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Umbala-Interview-Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Umbala-Interview-Test/Pods-Umbala-Interview-Test.debug.xcconfig"; sourceTree = "<group>"; };
+		6E355CA8DE849748B03789F4 /* Pods-Umbala-Interview-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Umbala-Interview-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Umbala-Interview-Test/Pods-Umbala-Interview-Test.release.xcconfig"; sourceTree = "<group>"; };
+		9A876E7698EA0CF4DAB8EC07 /* Pods_Umbala_Interview_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Umbala_Interview_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3DC5B562080DA1F001551DC /* Umbala-Interview-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Umbala-Interview-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3DC5B592080DA1F001551DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3DC5B5B2080DA1F001551DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F3DC5B5E2080DA1F001551DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3DC5B612080DA20001551DC /* Umbala_Interview_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Umbala_Interview_Test.xcdatamodel; sourceTree = "<group>"; };
 		F3DC5B632080DA20001551DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3DC5B662080DA20001551DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3DC5B682080DA20001551DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3DC5B742080DBEE001551DC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F3DC5B762080DC04001551DC /* InstagramApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramApi.swift; sourceTree = "<group>"; };
+		F3DC5B782080DC1C001551DC /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		F3DC5B7A2080DC43001551DC /* UserAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthManager.swift; sourceTree = "<group>"; };
+		F3DC5B7C2080DC56001551DC /* PopupManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupManager.swift; sourceTree = "<group>"; };
+		F3DC5B7E2080DC72001551DC /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		F3DC5B812080DC8D001551DC /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		F3DC5B832080DCB9001551DC /* InstagarmRelationship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagarmRelationship.swift; sourceTree = "<group>"; };
+		F3DC5B852080DCC9001551DC /* InstagramRelationshipType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramRelationshipType.swift; sourceTree = "<group>"; };
+		F3DC5B872080DCDA001551DC /* InstagramUserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramUserInfo.swift; sourceTree = "<group>"; };
+		F3DC5B892080DCF4001551DC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F3DC5B8B2080DD08001551DC /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		F3DC5B8D2080DD64001551DC /* FollowingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingViewController.swift; sourceTree = "<group>"; };
+		F3DC5B8F2080DE75001551DC /* UmbalaInterviewTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmbalaInterviewTestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D19E31EADD423F53799CFC3 /* Pods_Umbala_Interview_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47250A7CC0595BFF9B901DC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A876E7698EA0CF4DAB8EC07 /* Pods_Umbala_Interview_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB5704FED858469FB87AAF31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50E050CC808B49681A9517CD /* Pods-Umbala-Interview-Test.debug.xcconfig */,
+				6E355CA8DE849748B03789F4 /* Pods-Umbala-Interview-Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F3DC5B4D2080DA1F001551DC = {
 			isa = PBXGroup;
 			children = (
 				F3DC5B582080DA1F001551DC /* Umbala-Interview-Test */,
 				F3DC5B572080DA1F001551DC /* Products */,
+				AB5704FED858469FB87AAF31 /* Pods */,
+				47250A7CC0595BFF9B901DC4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +104,75 @@
 		F3DC5B582080DA1F001551DC /* Umbala-Interview-Test */ = {
 			isa = PBXGroup;
 			children = (
+				F3DC5B702080DBAD001551DC /* Instagram */,
+				F3DC5B6F2080DB8F001551DC /* MatrixRotation */,
+				F3DC5B6E2080DB89001551DC /* ElevatorSystem */,
 				F3DC5B592080DA1F001551DC /* AppDelegate.swift */,
-				F3DC5B5B2080DA1F001551DC /* ViewController.swift */,
-				F3DC5B5D2080DA1F001551DC /* Main.storyboard */,
 				F3DC5B632080DA20001551DC /* Assets.xcassets */,
 				F3DC5B652080DA20001551DC /* LaunchScreen.storyboard */,
 				F3DC5B682080DA20001551DC /* Info.plist */,
 				F3DC5B602080DA20001551DC /* Umbala_Interview_Test.xcdatamodeld */,
+				F3DC5B8F2080DE75001551DC /* UmbalaInterviewTestViewController.swift */,
 			);
 			path = "Umbala-Interview-Test";
+			sourceTree = "<group>";
+		};
+		F3DC5B6E2080DB89001551DC /* ElevatorSystem */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ElevatorSystem;
+			sourceTree = "<group>";
+		};
+		F3DC5B6F2080DB8F001551DC /* MatrixRotation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MatrixRotation;
+			sourceTree = "<group>";
+		};
+		F3DC5B702080DBAD001551DC /* Instagram */ = {
+			isa = PBXGroup;
+			children = (
+				F3DC5B732080DBD8001551DC /* Helper */,
+				F3DC5B722080DBD3001551DC /* Model */,
+				F3DC5B712080DBCC001551DC /* ViewController */,
+			);
+			path = Instagram;
+			sourceTree = "<group>";
+		};
+		F3DC5B712080DBCC001551DC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F3DC5B892080DCF4001551DC /* LoginViewController.swift */,
+				F3DC5B8B2080DD08001551DC /* WelcomeViewController.swift */,
+				F3DC5B8D2080DD64001551DC /* FollowingViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F3DC5B722080DBD3001551DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3DC5B832080DCB9001551DC /* InstagarmRelationship.swift */,
+				F3DC5B852080DCC9001551DC /* InstagramRelationshipType.swift */,
+				F3DC5B872080DCDA001551DC /* InstagramUserInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F3DC5B732080DBD8001551DC /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F3DC5B742080DBEE001551DC /* Constants.swift */,
+				F3DC5B762080DC04001551DC /* InstagramApi.swift */,
+				F3DC5B782080DC1C001551DC /* UIViewControllerExtension.swift */,
+				F3DC5B7A2080DC43001551DC /* UserAuthManager.swift */,
+				F3DC5B7C2080DC56001551DC /* PopupManager.swift */,
+				F3DC5B7E2080DC72001551DC /* UIImageViewExtension.swift */,
+				F3DC5B812080DC8D001551DC /* ArrayExtension.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3DC5B6B2080DA20001551DC /* Build configuration list for PBXNativeTarget "Umbala-Interview-Test" */;
 			buildPhases = (
+				22AEDC104B2DA36103E721CC /* [CP] Check Pods Manifest.lock */,
 				F3DC5B522080DA1F001551DC /* Sources */,
 				F3DC5B532080DA1F001551DC /* Frameworks */,
 				F3DC5B542080DA1F001551DC /* Resources */,
+				654C773D97990C21FB8526B8 /* [CP] Embed Pods Frameworks */,
+				EA9C2A3A02BAE2A884335578 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,34 +239,94 @@
 			files = (
 				F3DC5B672080DA20001551DC /* LaunchScreen.storyboard in Resources */,
 				F3DC5B642080DA20001551DC /* Assets.xcassets in Resources */,
-				F3DC5B5F2080DA1F001551DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22AEDC104B2DA36103E721CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Umbala-Interview-Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		654C773D97990C21FB8526B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Umbala-Interview-Test/Pods-Umbala-Interview-Test-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Umbala-Interview-Test/Pods-Umbala-Interview-Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA9C2A3A02BAE2A884335578 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Umbala-Interview-Test/Pods-Umbala-Interview-Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F3DC5B522080DA1F001551DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3DC5B5C2080DA1F001551DC /* ViewController.swift in Sources */,
+				F3DC5B902080DE75001551DC /* UmbalaInterviewTestViewController.swift in Sources */,
+				F3DC5B8A2080DCF4001551DC /* LoginViewController.swift in Sources */,
+				F3DC5B882080DCDA001551DC /* InstagramUserInfo.swift in Sources */,
 				F3DC5B622080DA20001551DC /* Umbala_Interview_Test.xcdatamodeld in Sources */,
+				F3DC5B7B2080DC43001551DC /* UserAuthManager.swift in Sources */,
+				F3DC5B792080DC1C001551DC /* UIViewControllerExtension.swift in Sources */,
+				F3DC5B8C2080DD08001551DC /* WelcomeViewController.swift in Sources */,
+				F3DC5B7D2080DC56001551DC /* PopupManager.swift in Sources */,
+				F3DC5B8E2080DD64001551DC /* FollowingViewController.swift in Sources */,
+				F3DC5B822080DC8D001551DC /* ArrayExtension.swift in Sources */,
+				F3DC5B842080DCB9001551DC /* InstagarmRelationship.swift in Sources */,
+				F3DC5B7F2080DC72001551DC /* UIImageViewExtension.swift in Sources */,
+				F3DC5B862080DCC9001551DC /* InstagramRelationshipType.swift in Sources */,
 				F3DC5B5A2080DA1F001551DC /* AppDelegate.swift in Sources */,
+				F3DC5B772080DC04001551DC /* InstagramApi.swift in Sources */,
+				F3DC5B752080DBEE001551DC /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F3DC5B5D2080DA1F001551DC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F3DC5B5E2080DA1F001551DC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F3DC5B652080DA20001551DC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -276,6 +447,7 @@
 		};
 		F3DC5B6C2080DA20001551DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50E050CC808B49681A9517CD /* Pods-Umbala-Interview-Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +463,7 @@
 		};
 		F3DC5B6D2080DA20001551DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E355CA8DE849748B03789F4 /* Pods-Umbala-Interview-Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
