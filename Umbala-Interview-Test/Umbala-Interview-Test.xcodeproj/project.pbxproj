@@ -30,6 +30,7 @@
 		F3DC5B952080E9D4001551DC /* ElevatorRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B942080E9D4001551DC /* ElevatorRequest.swift */; };
 		F3DC5B972080E9E8001551DC /* ElevatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B962080E9E8001551DC /* ElevatorViewController.swift */; };
 		F3DC5B992080EA00001551DC /* SetupElevatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B982080EA00001551DC /* SetupElevatorViewController.swift */; };
+		F3DC5B9B2080EB34001551DC /* MatrixRotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B9A2080EB34001551DC /* MatrixRotationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		F3DC5B942080E9D4001551DC /* ElevatorRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevatorRequest.swift; sourceTree = "<group>"; };
 		F3DC5B962080E9E8001551DC /* ElevatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevatorViewController.swift; sourceTree = "<group>"; };
 		F3DC5B982080EA00001551DC /* SetupElevatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupElevatorViewController.swift; sourceTree = "<group>"; };
+		F3DC5B9A2080EB34001551DC /* MatrixRotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixRotationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 		F3DC5B6F2080DB8F001551DC /* MatrixRotation */ = {
 			isa = PBXGroup;
 			children = (
+				F3DC5B9A2080EB34001551DC /* MatrixRotationViewController.swift */,
 			);
 			path = MatrixRotation;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				F3DC5B932080E9BB001551DC /* Elevator.swift in Sources */,
 				F3DC5B8A2080DCF4001551DC /* LoginViewController.swift in Sources */,
 				F3DC5B882080DCDA001551DC /* InstagramUserInfo.swift in Sources */,
+				F3DC5B9B2080EB34001551DC /* MatrixRotationViewController.swift in Sources */,
 				F3DC5B622080DA20001551DC /* Umbala_Interview_Test.xcdatamodeld in Sources */,
 				F3DC5B952080E9D4001551DC /* ElevatorRequest.swift in Sources */,
 				F3DC5B992080EA00001551DC /* SetupElevatorViewController.swift in Sources */,

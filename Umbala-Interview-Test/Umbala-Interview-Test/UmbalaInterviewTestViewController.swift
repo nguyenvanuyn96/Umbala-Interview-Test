@@ -142,8 +142,8 @@ class UmbalaInterviewTestViewController: UIViewController {
     }
     
     @objc private func didTapMatrixRotationTestButton() {
-//        let assignedVC = MatrixRotationViewController()
-//        self.navigationController?.pushViewController(assignedVC, animated: true)
+        let assignedVC = MatrixRotationViewController()
+        self.navigationController?.pushViewController(assignedVC, animated: true)
     }
     
     @objc private func didTapInstagramTestButton() {
