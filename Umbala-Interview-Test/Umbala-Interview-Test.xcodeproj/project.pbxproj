@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3D19E31EADD423F53799CFC3 /* Pods_Umbala_Interview_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A876E7698EA0CF4DAB8EC07 /* Pods_Umbala_Interview_Test.framework */; };
 		F3DC5B5A2080DA1F001551DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B592080DA1F001551DC /* AppDelegate.swift */; };
-		F3DC5B622080DA20001551DC /* Umbala_Interview_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B602080DA20001551DC /* Umbala_Interview_Test.xcdatamodeld */; };
 		F3DC5B642080DA20001551DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3DC5B632080DA20001551DC /* Assets.xcassets */; };
 		F3DC5B672080DA20001551DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DC5B652080DA20001551DC /* LaunchScreen.storyboard */; };
 		F3DC5B752080DBEE001551DC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B742080DBEE001551DC /* Constants.swift */; };
@@ -39,7 +38,6 @@
 		9A876E7698EA0CF4DAB8EC07 /* Pods_Umbala_Interview_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Umbala_Interview_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3DC5B562080DA1F001551DC /* Umbala-Interview-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Umbala-Interview-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3DC5B592080DA1F001551DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3DC5B612080DA20001551DC /* Umbala_Interview_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Umbala_Interview_Test.xcdatamodel; sourceTree = "<group>"; };
 		F3DC5B632080DA20001551DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3DC5B662080DA20001551DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3DC5B682080DA20001551DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,10 +94,10 @@
 		F3DC5B4D2080DA1F001551DC = {
 			isa = PBXGroup;
 			children = (
-				F3DC5B582080DA1F001551DC /* Umbala-Interview-Test */,
-				F3DC5B572080DA1F001551DC /* Products */,
-				AB5704FED858469FB87AAF31 /* Pods */,
 				47250A7CC0595BFF9B901DC4 /* Frameworks */,
+				AB5704FED858469FB87AAF31 /* Pods */,
+				F3DC5B572080DA1F001551DC /* Products */,
+				F3DC5B582080DA1F001551DC /* Umbala-Interview-Test */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,7 +119,6 @@
 				F3DC5B632080DA20001551DC /* Assets.xcassets */,
 				F3DC5B652080DA20001551DC /* LaunchScreen.storyboard */,
 				F3DC5B682080DA20001551DC /* Info.plist */,
-				F3DC5B602080DA20001551DC /* Umbala_Interview_Test.xcdatamodeld */,
 				F3DC5B8F2080DE75001551DC /* UmbalaInterviewTestViewController.swift */,
 			);
 			path = "Umbala-Interview-Test";
@@ -333,7 +330,6 @@
 				F3DC5B8A2080DCF4001551DC /* LoginViewController.swift in Sources */,
 				F3DC5B882080DCDA001551DC /* InstagramUserInfo.swift in Sources */,
 				F3DC5B9B2080EB34001551DC /* MatrixRotationViewController.swift in Sources */,
-				F3DC5B622080DA20001551DC /* Umbala_Interview_Test.xcdatamodeld in Sources */,
 				F3DC5B952080E9D4001551DC /* ElevatorRequest.swift in Sources */,
 				F3DC5B992080EA00001551DC /* SetupElevatorViewController.swift in Sources */,
 				F3DC5B7B2080DC43001551DC /* UserAuthManager.swift in Sources */,
@@ -527,19 +523,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		F3DC5B602080DA20001551DC /* Umbala_Interview_Test.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				F3DC5B612080DA20001551DC /* Umbala_Interview_Test.xcdatamodel */,
-			);
-			currentVersion = F3DC5B612080DA20001551DC /* Umbala_Interview_Test.xcdatamodel */;
-			path = Umbala_Interview_Test.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = F3DC5B4E2080DA1F001551DC /* Project object */;
 }
