@@ -137,8 +137,8 @@ class UmbalaInterviewTestViewController: UIViewController {
     }
     
     @objc private func didTapElevatorTestButton() {
-//        let assignedVC = SetupElevatorViewController()
-//        self.navigationController?.pushViewController(assignedVC, animated: true)
+        let assignedVC = SetupElevatorViewController()
+        self.navigationController?.pushViewController(assignedVC, animated: true)
     }
     
     @objc private func didTapMatrixRotationTestButton() {

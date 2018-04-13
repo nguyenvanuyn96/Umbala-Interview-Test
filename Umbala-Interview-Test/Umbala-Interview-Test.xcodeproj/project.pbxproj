@@ -26,6 +26,10 @@
 		F3DC5B8C2080DD08001551DC /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B8B2080DD08001551DC /* WelcomeViewController.swift */; };
 		F3DC5B8E2080DD64001551DC /* FollowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B8D2080DD64001551DC /* FollowingViewController.swift */; };
 		F3DC5B902080DE75001551DC /* UmbalaInterviewTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B8F2080DE75001551DC /* UmbalaInterviewTestViewController.swift */; };
+		F3DC5B932080E9BB001551DC /* Elevator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B922080E9BB001551DC /* Elevator.swift */; };
+		F3DC5B952080E9D4001551DC /* ElevatorRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B942080E9D4001551DC /* ElevatorRequest.swift */; };
+		F3DC5B972080E9E8001551DC /* ElevatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B962080E9E8001551DC /* ElevatorViewController.swift */; };
+		F3DC5B992080EA00001551DC /* SetupElevatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DC5B982080EA00001551DC /* SetupElevatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +56,10 @@
 		F3DC5B8B2080DD08001551DC /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		F3DC5B8D2080DD64001551DC /* FollowingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingViewController.swift; sourceTree = "<group>"; };
 		F3DC5B8F2080DE75001551DC /* UmbalaInterviewTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmbalaInterviewTestViewController.swift; sourceTree = "<group>"; };
+		F3DC5B922080E9BB001551DC /* Elevator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elevator.swift; sourceTree = "<group>"; };
+		F3DC5B942080E9D4001551DC /* ElevatorRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevatorRequest.swift; sourceTree = "<group>"; };
+		F3DC5B962080E9E8001551DC /* ElevatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevatorViewController.swift; sourceTree = "<group>"; };
+		F3DC5B982080EA00001551DC /* SetupElevatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupElevatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +128,9 @@
 		F3DC5B6E2080DB89001551DC /* ElevatorSystem */ = {
 			isa = PBXGroup;
 			children = (
+				F3DC5B912080E9B0001551DC /* Model */,
+				F3DC5B962080E9E8001551DC /* ElevatorViewController.swift */,
+				F3DC5B982080EA00001551DC /* SetupElevatorViewController.swift */,
 			);
 			path = ElevatorSystem;
 			sourceTree = "<group>";
@@ -173,6 +184,15 @@
 				F3DC5B812080DC8D001551DC /* ArrayExtension.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		F3DC5B912080E9B0001551DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3DC5B922080E9BB001551DC /* Elevator.swift */,
+				F3DC5B942080E9D4001551DC /* ElevatorRequest.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,14 +326,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3DC5B902080DE75001551DC /* UmbalaInterviewTestViewController.swift in Sources */,
+				F3DC5B932080E9BB001551DC /* Elevator.swift in Sources */,
 				F3DC5B8A2080DCF4001551DC /* LoginViewController.swift in Sources */,
 				F3DC5B882080DCDA001551DC /* InstagramUserInfo.swift in Sources */,
 				F3DC5B622080DA20001551DC /* Umbala_Interview_Test.xcdatamodeld in Sources */,
+				F3DC5B952080E9D4001551DC /* ElevatorRequest.swift in Sources */,
+				F3DC5B992080EA00001551DC /* SetupElevatorViewController.swift in Sources */,
 				F3DC5B7B2080DC43001551DC /* UserAuthManager.swift in Sources */,
 				F3DC5B792080DC1C001551DC /* UIViewControllerExtension.swift in Sources */,
 				F3DC5B8C2080DD08001551DC /* WelcomeViewController.swift in Sources */,
 				F3DC5B7D2080DC56001551DC /* PopupManager.swift in Sources */,
 				F3DC5B8E2080DD64001551DC /* FollowingViewController.swift in Sources */,
+				F3DC5B972080E9E8001551DC /* ElevatorViewController.swift in Sources */,
 				F3DC5B822080DC8D001551DC /* ArrayExtension.swift in Sources */,
 				F3DC5B842080DCB9001551DC /* InstagarmRelationship.swift in Sources */,
 				F3DC5B7F2080DC72001551DC /* UIImageViewExtension.swift in Sources */,
